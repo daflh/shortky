@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-surface text-on-surface font-body min-h-screen flex flex-col selection:bg-primary selection:text-on-primary">
+  <div class="bg-slate-950 text-slate-100 font-body min-h-screen flex flex-col selection:bg-blue-500 selection:text-slate-950">
     <!-- TopNavBar -->
     <header class="fixed top-0 w-full z-50 bg-[#081425]/60 backdrop-blur-3xl shadow-[0_40px_0_0_rgba(42,53,72,0.06)]">
       <div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
