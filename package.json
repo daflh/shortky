@@ -1,0 +1,25 @@
+{
+  "name": "shortky",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.30.0",
+    "nuxt": "latest",
+    "postgres": "^3.4.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "latest",
+    "@types/node": "^25.6.0",
+    "drizzle-kit": "^0.20.0"
+  },
+  "packageManager": "pnpm@10.28.1"
+}

@@ -1,0 +1,66 @@
+export default {
+    darkMode: "class",
+    content: [
+      "./components/**/*.{js,vue,ts}",
+      "./layouts/**/*.vue",
+      "./pages/**/*.vue",
+      "./plugins/**/*.{js,ts}",
+      "./app.vue",
+      "./error.vue"
+    ],
+    theme: {
+        extend: {
+            colors: {
+                "on-background": "#d8e3fb",
+                "secondary-container": "#324c5c",
+                "on-secondary-fixed": "#001e2c",
+                "on-surface-variant": "#bdc8d1",
+                "surface": "#081425",
+                "on-surface": "#d8e3fb",
+                "secondary-fixed-dim": "#afcadd",
+                "inverse-primary": "#00668a",
+                "primary-fixed": "#c4e7ff",
+                "tertiary-fixed": "#e9ddff",
+                "tertiary-fixed-dim": "#d0bcff",
+                "tertiary": "#d5c3ff",
+                "surface-container": "#152031",
+                "on-error": "#690005",
+                "primary": "#8ed5ff",
+                "on-tertiary-container": "#520fbb",
+                "inverse-on-surface": "#263143",
+                "outline-variant": "#3e484f",
+                "on-primary-fixed": "#001e2c",
+                "surface-container-low": "#111c2d",
+                "on-secondary": "#183342",
+                "surface-container-lowest": "#040e1f",
+                "primary-container": "#38bdf8",
+                "on-error-container": "#ffdad6",
+                "error": "#ffb4ab",
+                "on-tertiary": "#3c0091",
+                "error-container": "#93000a",
+                "on-secondary-fixed-variant": "#304a59",
+                "on-primary": "#00354a",
+                "tertiary-container": "#bda2ff",
+                "surface-container-highest": "#2a3548",
+                "surface-bright": "#2f3a4c",
+                "on-primary-container": "#004965",
+                "surface-dim": "#081425",
+                "on-tertiary-fixed": "#23005c",
+                "surface-container-high": "#1f2a3c",
+                "outline": "#87929a",
+                "inverse-surface": "#d8e3fb"
+            },
+            fontFamily: {
+                "headline": ["Inter"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+            },
+            borderRadius: {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+        },
+    },
+}
