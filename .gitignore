@@ -160,6 +160,11 @@ vite.config.ts.timestamp-*
 .output
 .gen
 
+# AI-generated files
+.claude/
+CLAUDE.md
+AGENTS.md
+
 dist/
 .data/
 design/
