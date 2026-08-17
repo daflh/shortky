@@ -6,7 +6,7 @@ const BASE62_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz012345
 const CUSTOM_ALIAS_PATTERN = /^[a-zA-Z0-9_-]+$/
 const CUSTOM_ALIAS_MIN_LENGTH = 3
 const CUSTOM_ALIAS_MAX_LENGTH = 32
-const RESERVED_ALIASES = new Set(['api', '_nuxt', 'favicon.ico', 'robots.txt'])
+const RESERVED_ALIASES = new Set(['api', '_nuxt', 'favicon.ico', 'robots.txt', '_', 'recent'])
 
 export function generateRandomAlias(): string {
   const bytes = crypto.randomBytes(RANDOM_ALIAS_LENGTH)

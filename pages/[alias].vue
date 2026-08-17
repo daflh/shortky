@@ -120,7 +120,12 @@ interface LinkMeta {
 }
 
 const route = useRoute()
-const alias = route.params.alias as string
+let alias = route.params.alias as string
+
+if (alias === '_') {
+  const recent = await $fetch<{ alias: string } | null>('/api/links/recent').catch(() => null)
+  if (recent?.alias) alias = recent.alias
+}
 
 const { data, pending, error } = await useFetch<LinkMeta>(`/api/links/${alias}`)
 const link = computed(() => data.value)
