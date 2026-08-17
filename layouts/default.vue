@@ -5,6 +5,15 @@
         <NuxtLink to="/" class="text-xl font-bold tracking-tighter text-primary">
           Shortky
         </NuxtLink>
+        <a
+          href="https://github.com/daflh/shortky"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-1.5 text-xs font-semibold text-slate-300 bg-surface-high hover:bg-surface-highest transition-colors px-3 py-1.5 rounded-full"
+        >
+          <UIcon name="i-lucide-github" class="w-4 h-4" />
+          GitHub
+        </a>
       </div>
     </header>
 
